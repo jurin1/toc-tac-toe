@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script> src="script.js" </script>
+    <script type="text/javascript" src="script.js"></script>
     <title>Tic Tac Toe</title>
 </head>
 <body>
     
+    <div class="containerTTT">
+        <div class="header">
+            <span class="X">X</span>
+            <span class="O">O</span>
+        </div>
+        <div class="matrix">
+            <div>
+                <button id="x1y1" onclick="buttonClick(this)"></button>
+                <button id="x1y2" onclick="buttonClick(this)"></button>
+                <button id="x1y3" onclick="buttonClick(this)"></button>
+            </div>
+            <div>
+                <button id="x2y1" onclick="buttonClick(this)"></button>
+                <button id="x2y2" onclick="buttonClick(this)"></button>
+                <button id="x2y3" onclick="buttonClick(this)"></button>
+            </div>
+            <div>
+                <button id="x3y1" onclick="buttonClick(this)"></button>
+                <button id="x3y2" onclick="buttonClick(this)"></button>
+                <button id="x3y3" onclick="buttonClick(this)"></button>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 </html>

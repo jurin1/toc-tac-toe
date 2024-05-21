@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: #1a4645;
+}
+
+.containerTTT{
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    margin: 10% 25%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.header{
+    padding: 18px 30px;
+    font-size: 80px;
+
+
+}
+
+.matrix button{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+    border: 2px solid #1a4645;
+    background-color: white;
+}
+.matrix button:hover {
+    background-color: #1a4645;
+    color: white;
+}
+.matrix button.filled:hover {
+    background-color: initial;
+    cursor: default;
+}
+.matrix > div {
+    display: flex;
+}
+.matrix > div > button:not(:last-child) {
+    margin-right: 15px;
+}
+
